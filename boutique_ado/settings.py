@@ -181,7 +181,7 @@ if 'USE_AWS' in os.environ:
     # Cache control
     AWS_S3_OBJECT_PARAMETERS = {
         'Expires': 'Thu, 31 Dec 2099 20:00:00 GMT',
-        'CachControl': 'max-age=96408000',
+        'CacheControl': 'max-age=96408000',
     }
     # Bucket Config
     AWS_STORAGE_BUCKET_NAME = 'boutique-ado-0'
